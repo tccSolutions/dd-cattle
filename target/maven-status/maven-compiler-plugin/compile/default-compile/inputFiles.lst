@@ -1,2 +1,15 @@
-C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\FullstackReactTemplateApplication.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\security\auth\AuthenticationService.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\security\user\User.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\security\auth\AuthenticationResponse.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\security\config\SecurityConfig.java
 C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\forwardController\ClientForwardController.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\security\auth\RegisterRequest.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\security\user\Role.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\security\config\ApplicationConfig.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\demo\DemoController.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\security\auth\AuthenticationRequest.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\security\user\UserRepo.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\FullstackReactTemplateApplication.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\security\config\JwtService.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\security\auth\AuthenticationController.java
+C:\Users\dmobl\OneDrive\Documents\TCCS.TECH\fullstack-react-template\src\main\java\com\tccs\fullstackreacttemplate\security\config\JwtAuthenticationFilter.java
