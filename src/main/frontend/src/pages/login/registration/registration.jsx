@@ -48,10 +48,16 @@ export default function RegistrationPage(){
                 email: values.email,
                 password: values.password
             }
+            
 
             await register(user)
                 .then(res=>{
-                    nav("/")
+                    if(res.data.token === null){
+                        setErrors(["Email already exists"])
+                    }else{
+                        nav("/")
+                    }
+                   
                 })
                 .catch(err=> setErrors[err])
         }
