@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../api/AuthContext";
 
 
@@ -19,8 +19,7 @@ export default function LoginPage({message}) {
     const handlePassword = (event)=>{
         setPassword(event.target.value)
     }
-    const onSubmit = async() =>{        
-        console.log(email, password)
+    const onSubmit = async() =>{       
       if(await auth.login(email, password)){
         nav("/");
       } else{
@@ -47,6 +46,7 @@ export default function LoginPage({message}) {
                     <div className="col-lg-6 mx-auto mb-3">
                         <button className="btn btn-primary w-100" type="button" onClick={onSubmit}>Login</button>
                     </div>
+                    <Link to="/register">Create Account</Link>
                 </div>
             </form>
 

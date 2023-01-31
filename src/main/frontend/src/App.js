@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import LoginPage from './pages/login/login';
 import AuthProvider, { useAuth } from './api/AuthContext';
+import RegistrationPage from './pages/login/registration/registration';
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<AuthenticatedRoute>Hello World!</AuthenticatedRoute>}/>
             <Route path='/login' element={<LoginPage message={"Login"} />} />
+            <Route path='/Register' element={<RegistrationPage />} />
             <Route path='/test' element={<h1>test successful</h1>} />
           </Routes>
         </BrowserRouter>
