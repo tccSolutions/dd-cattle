@@ -1,10 +1,15 @@
+com\tccs\fullstackreacttemplate\horse\Horse.class
 com\tccs\fullstackreacttemplate\security\user\User.class
 com\tccs\fullstackreacttemplate\security\auth\RegisterRequest.class
 com\tccs\fullstackreacttemplate\security\user\UserRepo.class
 com\tccs\fullstackreacttemplate\security\user\User$UserBuilder.class
+com\tccs\fullstackreacttemplate\horse\HorseRepo.class
+com\tccs\fullstackreacttemplate\medicalRecord\MedicalRecordController.class
 com\tccs\fullstackreacttemplate\security\config\JwtService.class
 com\tccs\fullstackreacttemplate\security\config\SecurityConfig.class
-com\tccs\fullstackreacttemplate\demo\DemoController.class
+com\tccs\fullstackreacttemplate\trainingRecord\TrainingRecord.class
+com\tccs\fullstackreacttemplate\horse\HorseController.class
+com\tccs\fullstackreacttemplate\medicalRecord\MedicalRecord.class
 com\tccs\fullstackreacttemplate\security\auth\AuthenticationService.class
 com\tccs\fullstackreacttemplate\security\auth\RegisterRequest$RegisterRequestBuilder.class
 com\tccs\fullstackreacttemplate\security\config\JwtAuthenticationFilter.class
@@ -12,8 +17,10 @@ com\tccs\fullstackreacttemplate\security\user\Role.class
 com\tccs\fullstackreacttemplate\security\config\ApplicationConfig.class
 com\tccs\fullstackreacttemplate\security\auth\AuthenticationResponse.class
 com\tccs\fullstackreacttemplate\FullstackReactTemplateApplication.class
+com\tccs\fullstackreacttemplate\medicalRecord\MedicalRepo.class
 com\tccs\fullstackreacttemplate\security\auth\AuthenticationResponse$AuthenticationResponseBuilder.class
 com\tccs\fullstackreacttemplate\security\auth\AuthenticationController.class
 com\tccs\fullstackreacttemplate\security\auth\AuthenticationRequest$AuthenticationRequestBuilder.class
+com\tccs\fullstackreacttemplate\trainingRecord\TrainingRecordController.class
 com\tccs\fullstackreacttemplate\forwardController\ClientForwardController.class
 com\tccs\fullstackreacttemplate\security\auth\AuthenticationRequest.class

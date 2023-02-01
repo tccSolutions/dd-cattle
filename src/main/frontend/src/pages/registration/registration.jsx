@@ -1,7 +1,7 @@
 import { Field, Form, Formik } from "formik"
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { register } from "../../../api/ApiService";
+import { register } from "../../api/ApiService";
 
 
 

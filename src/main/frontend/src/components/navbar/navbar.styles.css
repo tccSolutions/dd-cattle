@@ -1,0 +1,23 @@
+.brand{
+    border-right: 1px solid white;
+    padding-right: .5em;
+}
+.navbar{
+    background-color: rgb(136, 37, 1);
+    padding: 0;
+    max-height: 15vh;
+    height: 15vh;
+    
+}
+.nav{
+    z-index: 10000;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-nav{
+        background-color: black;
+    }
+    .nav{
+        z-index: 10000;
+    }
+}

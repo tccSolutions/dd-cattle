@@ -6,23 +6,23 @@ export const useAuth = () => useContext(AuthContext);
 
 export default function AuthProvider({ children }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [username, setUsername] = useState(null);
- 
+  const [user, setUser] = useState(null);
+  const [token, setToken] = useState(null)
 
   async function login(username, password) {
     try {
       const response = await executeJwtAuthentication(username, password);
       if (response.status === 200) {
         const jwtToken = `Bearer ${response.data.token}`;        
-        setIsAuthenticated(true)
-        setUsername(username)
+        setIsAuthenticated(true)        
 
-        apiClient.interceptors.request.use(
+       apiClient.interceptors.request.use(
             (config) => {               
                 config.headers.Authorization = jwtToken
                 return config
             }
         )
+        console.log(response)
         return true;
       } else {       
         logout();
@@ -35,11 +35,12 @@ export default function AuthProvider({ children }) {
   }
   function logout() {
     setIsAuthenticated(false);
-    setUsername(null)
+    setUser(null) 
+    delete apiClient.defaults.headers.common["Authorization"] 
   }
 
   return (
-    <AuthContext.Provider value={{ isAuthenticated, login, logout, username }}>
+    <AuthContext.Provider value={{ isAuthenticated, login, logout, user }}>
       {children}
     </AuthContext.Provider>
   );
